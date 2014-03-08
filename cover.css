@@ -27,7 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  /*background-color: #FF8330; */
+  background-image:url('piggy.jpg');
 }
 body {
   color: #fff;
@@ -83,7 +84,7 @@ body {
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-  background-color: transparent;
+  background-color: transparent; 
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
