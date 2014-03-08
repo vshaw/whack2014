@@ -64,7 +64,7 @@ Your message was sent
 <?php 
 } else { 
 ?> 
-<form action="test.php" method="post">
+<form action="about.php" method="post">
 <table width="400" border="0" cellspacing="2" cellpadding="0">
 <tr>
 <td width="29%" class="bodytext">Your name:</td>
