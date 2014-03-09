@@ -13,9 +13,14 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: white;
+  font-size: 35px; 
+  border-radius: 15px;
+  padding: 10px;
+  padding-right:15px;
+  padding-left: 15px;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
+  background-color: #40c0b3;
   border: 1px solid #fff;
 }
 
@@ -30,7 +35,7 @@ body {
  /* background-color: #FF8330; */
   background-image:url('back.png');
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:105% 85%;
 
 }
 body {
@@ -169,6 +174,15 @@ h2{
   margin-left: 10px;
 }
 
+
+.aboutinfo{
+	text-align:center; 
+	background-color: #40c0b3;
+	margin-left: -105px;
+	margin-right: -105px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 
 /* Featurettes
 ------------------------- */
